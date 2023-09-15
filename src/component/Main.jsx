@@ -36,7 +36,7 @@ const Main = () => {
   return (
     <Container fluid className="pt-5 px-5 main">
       <Row>
-        <Col xs={8}>
+        <Col xs={7}>
           <Row>
             <Form onSubmit={handleSubmit}>
               <Form.Control type="search" value={query} onChange={handleChange} placeholder="Search Your City" />
@@ -62,7 +62,7 @@ const Main = () => {
               : "No Search Results Yet"}
           </Row>
         </Col>
-        <Col xs={4}>
+        <Col xs={5}>
           <Selected />
         </Col>
       </Row>
